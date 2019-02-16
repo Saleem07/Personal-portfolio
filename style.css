@@ -121,5 +121,12 @@ section a:hover{
   justify-content: center;
   align-items: center;
 }
-
-
+.grids{
+  border:3px solid transparent;
+}
+.grids:hover{
+  border:3px solid rgb(0, 106, 148);
+}
+i:hover{
+  transform: scale(1.1);
+}
