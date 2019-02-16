@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: whitesmoke;
+  height: 9vh;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+}
+
+li:hover {
+  color: rgb(74, 174, 214);
+}
+
+#welcome-section {
+  color: black;
+  background-position: center;
+  background: url(https://images.pexels.com/photos/796601/pexels-photo-796601.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 91vh;
+}
+#projects {
+  background: linear-gradient();
+  height: 100vh;
+  background-color:  rgb(211, 204, 204);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 200px 1fr;
+  justify-items: center;
+  align-items: center;
+}
+img{
+  border-radius: 5.7px;
+  
+
+}
+#projects > h2 {
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  padding: 35px;
+  font-size: 35px;
+}
+
+#contact-me {
+  height: 50vh;
+  
+  
+  
+  
+  background-color: rgb(190, 188, 188);
+}
+#footer {
+  background: skyblue;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+i {
+  margin: 20px;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#welcome-text {
+  background-color: rgba(245, 245, 245, 0.4); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  line-height: 45px;
+  font-size: 35px;
+}
+#project-title {
+  grid-column: span 2;
+}
+span{
+  display: block;
+  text-align: center;
+  padding:5px;
+  background-color: rgb(184, 184, 184);
+  color: white;
+  margin-top:-3px;
+}
+
+/* section a{
+  border:2px solid black;
+  
+}
+section a:hover{
+  border:2px solid skyblue;
+} */
+.contact-metxt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: space-between;
+  height:50%;
+  font-size: 22px;
+  font-family: 'Cabin',sans-serif;
+}
+.contact-melnk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
