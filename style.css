@@ -38,6 +38,8 @@ li:hover {
 }
 img{
   border-radius: 5.7px;
+  display:block;
+  width:200px;
   
 
 }
