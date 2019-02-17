@@ -132,3 +132,34 @@ section a:hover{
 i:hover{
   transform: scale(1.1);
 }
+@media only screen and (max-width:600px){
+ #projects{
+   grid-template-columns: 400px;
+   grid-template-rows: 5% 15% 15% 15% 15%;
+   grid-row-gap:15px; 
+   height: 130vh;
+   align-content: space-around;
+   align-items: center;
+   border-bottom:2px solid black;
+   justify-items: center;
+   
+ }
+ .grids{
+   grid-column: 1/2;
+  
+   
+   
+ }
+ #welcome-text{
+   font-size: 25px;
+   line-height: 35px;
+   
+
+ }
+ .contact-metxt{
+   text-align: center;
+   font-size:20px;
+ }
+ 
+
+}
